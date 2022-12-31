@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <style>
+        header{
+            text-align: center;
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-weight: bolder;
+            padding: 30px;
+        }
+        body{
+            background-color: rgba(0, 0, 255, 0.61);
+        }
+        section{
+            background-color: white;
+            width: 550px;
+            height: 400px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        .hudson > p{
+           font-size: 20px;
+           margin: 10px;  
+        }
+        .hudson2{
+            margin: 10px;
+        }
+        .hudson3{
+            margin: 10px;
+        }
+        section >p {
+            font-size: 20px;
+            font-weight: bolder;
+            font-family: Arial, Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+        }
+       
+    </style>
+
+</head>
+<body>
+<header>Tabuada</header>
+<section>
+     <div>
+        <p>Numero: <input type="number" name="num" id="txtn" class="hudson"> <input type="button" value="Gerar Tabuada" onclick="tabuada()"></p>
+    </div>
+
+ <div>
+    <select name="tabuada" id="seltab" size="10">
+        <option>Digite um Número acima</option>
+    </select>
+</div>
+
+<p>Preparando a contagem...</p>
+<div id="resultado"></div>
+</section>
+<script src="script2.js">
+
+</script>
+</body>
+</html>
